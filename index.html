@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Política de privacidad de Relevo, app de turnos, fichajes y horas.">
+<title>Privacidad de Relevo</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+  /* Layout: una columna de lectura (~65ch) con cabecera de marca y selector de idioma por anclas. */
+  :root {
+    --bg: #F4F4F8;
+    --surface: #FFFFFF;
+    --fg: #1B1B22;
+    --muted: #6B6B7A;
+    --line: #E3E3EA;
+    --sun: #FF9500;
+    --moon: #5856D6;
+    --font: "Figtree", -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0B0B0F; --surface: #17171D; --fg: #EDEDF2; --muted: #9A9AAA; --line: #2A2A33;
+      --moon: #7D7BF0; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0B0B0F; --surface: #17171D; --fg: #EDEDF2; --muted: #9A9AAA; --line: #2A2A33;
+    --moon: #7D7BF0; color-scheme: dark;
+  }
+  body { background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 16px; line-height: 1.6; padding-inline: 16px; padding-block: 40px 64px; }
+  .wrap { max-width: 680px; margin-inline: auto; display: flex; flex-direction: column; gap: 28px; }
+  header { display: flex; align-items: center; gap: 14px; }
+  header svg { width: 48px; height: 48px; flex: none; }
+  header h1 { font-size: 26px; line-height: 1.2; margin: 0; font-weight: 700; text-wrap: balance; }
+  header p { margin: 0; color: var(--muted); font-size: 14px; }
+  nav { display: flex; gap: 8px; flex-wrap: wrap; }
+  nav a { color: var(--fg); text-decoration: none; font-size: 14px; font-weight: 500; padding: 6px 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); }
+  nav a:hover, nav a:focus-visible { border-color: var(--moon); outline: none; }
+  article { background: var(--surface); border-radius: 16px; padding: 28px clamp(20px, 5vw, 36px); display: flex; flex-direction: column; gap: 6px; scroll-margin-top: 16px; }
+  article > .lang { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--moon); font-weight: 600; }
+  article h2 { font-size: 22px; margin: 0 0 6px; text-wrap: balance; }
+  article h3 { font-size: 16px; margin: 16px 0 0; font-weight: 600; }
+  article p { margin: 0; max-width: 65ch; }
+  .meta { color: var(--muted); font-size: 14px; }
+  .mail { font-weight: 600; user-select: all; overflow-wrap: anywhere; }
+  footer { color: var(--muted); font-size: 13px; text-align: center; }
+</style>
+<style>html{-webkit-text-size-adjust:100%}body{margin:0}*{box-sizing:border-box}</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="22" fill="var(--surface)"/><path d="M48.5 22 A28 28 0 0 0 48.5 78 Z" fill="var(--sun)"/><path d="M51.5 22 A28 28 0 0 1 51.5 78 Z" fill="var(--moon)"/></svg>
+    <div>
+      <h1>Política de privacidad de Relevo</h1>
+      <p>Última actualización: 13 de octubre de 2026</p>
+    </div>
+  </header>
+
+  <nav aria-label="Idioma">
+    <a href="#es">Castellano</a>
+    <a href="#ca">Català</a>
+    <a href="#en">English</a>
+  </nav>
+
+  <article id="es" lang="es">
+    <span class="lang">Castellano</span>
+    <h2>Tus datos se quedan en tu móvil</h2>
+    <p>Relevo es una aplicación para organizar turnos de trabajo, fichar y calcular horas. Esta política explica qué datos usa la app.</p>
+    <h3>Datos que guarda la app</h3>
+    <p>Todo lo que introduces en Relevo (tipos de turno, patrón rotativo, cambios de turno, fichajes, notas, tarifas y ajustes) se guarda solo en tu dispositivo. Relevo no tiene cuentas de usuario, no tiene servidores propios y no envía estos datos a nadie. Si desinstalas la app, estos datos se borran.</p>
+    <h3>Conexión a internet</h3>
+    <p>Para mostrar los festivos oficiales, Relevo consulta el servicio público Nager.Date (date.nager.at). En esa consulta solo se envía el código del país y el año, por ejemplo «ES» y «2026». Como en cualquier conexión a internet, ese servicio puede ver la dirección IP desde la que se hace la petición. Relevo no envía ningún dato personal ni de tus turnos.</p>
+    <h3>Compartir</h3>
+    <p>Cuando usas el botón de compartir, Relevo prepara un texto con el resumen del mes y abre el menú de compartir de tu móvil. Tú eliges con qué app y con quién lo compartes.</p>
+    <h3>Publicidad y analítica</h3>
+    <p>Relevo no muestra anuncios y no usa herramientas de analítica ni de seguimiento.</p>
+    <h3>Menores</h3>
+    <p>Relevo no está dirigida a menores de 13 años y no recoge datos de nadie.</p>
+    <h3>Cambios</h3>
+    <p>Si esta política cambia, se publicará aquí la nueva versión con su fecha.</p>
+    <h3>Contacto</h3>
+    <p>Para cualquier duda sobre privacidad: <span class="mail">eudaldserrat.dev@gmail.com</span></p>
+  </article>
+
+  <article id="ca" lang="ca">
+    <span class="lang">Català</span>
+    <h2>Les teves dades es queden al teu mòbil</h2>
+    <p>Relevo és una aplicació per organitzar torns de feina, fitxar i calcular hores. Aquesta política explica quines dades fa servir l'app.</p>
+    <h3>Dades que desa l'app</h3>
+    <p>Tot el que introdueixes a Relevo (tipus de torn, patró rotatiu, canvis de torn, fitxatges, notes, tarifes i ajustos) es desa només al teu dispositiu. Relevo no té comptes d'usuari, no té servidors propis i no envia aquestes dades a ningú. Si desinstal·les l'app, aquestes dades s'esborren.</p>
+    <h3>Connexió a internet</h3>
+    <p>Per mostrar els festius oficials, Relevo consulta el servei públic Nager.Date (date.nager.at). En aquesta consulta només s'envia el codi del país i l'any, per exemple «ES» i «2026». Com en qualsevol connexió a internet, aquest servei pot veure l'adreça IP des de la qual es fa la petició. Relevo no envia cap dada personal ni dels teus torns.</p>
+    <h3>Compartir</h3>
+    <p>Quan fas servir el botó de compartir, Relevo prepara un text amb el resum del mes i obre el menú de compartir del teu mòbil. Tu tries amb quina app i amb qui ho comparteixes.</p>
+    <h3>Publicitat i analítica</h3>
+    <p>Relevo no mostra anuncis i no fa servir eines d'analítica ni de seguiment.</p>
+    <h3>Menors</h3>
+    <p>Relevo no està adreçada a menors de 13 anys i no recull dades de ningú.</p>
+    <h3>Canvis</h3>
+    <p>Si aquesta política canvia, es publicarà aquí la nova versió amb la seva data.</p>
+    <h3>Contacte</h3>
+    <p>Per a qualsevol dubte sobre privacitat: <span class="mail">eudaldserrat.dev@gmail.com</span></p>
+  </article>
+
+  <article id="en" lang="en">
+    <span class="lang">English</span>
+    <h2>Your data stays on your phone</h2>
+    <p>Relevo is an app to organize work shifts, clock in and out, and track hours. This policy explains what data the app uses.</p>
+    <h3>Data the app stores</h3>
+    <p>Everything you enter in Relevo (shift types, rotation pattern, shift changes, clock entries, notes, rates and settings) is stored only on your device. Relevo has no user accounts, no servers of its own, and does not send this data to anyone. If you uninstall the app, this data is deleted.</p>
+    <h3>Internet connection</h3>
+    <p>To show public holidays, Relevo queries the public Nager.Date service (date.nager.at). Only the country code and the year are sent, for example "ES" and "2026". As with any internet connection, that service can see the IP address the request comes from. Relevo does not send any personal data or shift data.</p>
+    <h3>Sharing</h3>
+    <p>When you use the share button, Relevo prepares a text summary of the month and opens your phone's share menu. You choose which app and who to share it with.</p>
+    <h3>Ads and analytics</h3>
+    <p>Relevo shows no ads and uses no analytics or tracking tools.</p>
+    <h3>Children</h3>
+    <p>Relevo is not directed at children under 13 and does not collect data from anyone.</p>
+    <h3>Changes</h3>
+    <p>If this policy changes, the new version will be published here with its date.</p>
+    <h3>Contact</h3>
+    <p>For any privacy question: <span class="mail">eudaldserrat.dev@gmail.com</span></p>
+  </article>
+
+  <footer>Relevo · com.eudaldserrat.relevo</footer>
+</div>
+</body>
+</html>
